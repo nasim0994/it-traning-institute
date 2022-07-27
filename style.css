@@ -1,0 +1,45 @@
+/* google Font  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.custom-text-primary {
+  color: #ff6a3d;
+}
+.custom-text-secondary {
+  color: #1a2238;
+}
+.custom-bg-primay {
+  background: #ff6a3d;
+}
+.custom-bg-secondary {
+  background: #1a2238;
+}
+.custom-btn {
+  border: 2px solid #ff6a3d;
+  transition: all 0.7s;
+}
+.custom-btn:hover {
+  background: #ff6a3d;
+  color: #fff;
+  border: 2px solid #ff6a3d;
+}
+.custom-btn-primary {
+  background: #ff6a3d;
+  color: #fff;
+  transition: all 0.7s;
+}
+.custom-btn-primary:hover {
+  background: transparent;
+  color: #ff6a3d;
+  font-weight: 500;
+}
+
+/* -------------Custom css------------------  */
+.header-area {
+  background-image: url(images/banner-bg.png);
+}
+.slider-title {
+  font-size: 64px;
+}
