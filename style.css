@@ -8,7 +8,7 @@ body {
   color: #ff6a3d;
 }
 .custom-text-secondary {
-  color: #1a2238;
+  color: #262931;
 }
 .custom-bg-primay {
   background: #ff6a3d;
@@ -28,6 +28,7 @@ body {
 .custom-btn-primary {
   background: #ff6a3d;
   color: #fff;
+  padding: 8px 22px;
   transition: all 0.7s;
 }
 .custom-btn-primary:hover {
