@@ -23,11 +23,13 @@
   </head>
   <body>
     <!-- Header area start -->
-    <header class="header-area pb-4">
-      <nav class="navbar navbar-expand-lg">
+    <header class="pb-4">
+      <nav
+        class="navbar navbar-expand-lg fixed-top custom-bg-secondary text-white"
+      >
         <div class="container">
           <!-- header logo -->
-          <a class="navbar-brand fs-3 fw-semibold" href="#"
+          <a class="navbar-brand fs-3 fw-semibold text-white" href="#"
             ><span class="custom-text-primary">E</span>-learning</a
           >
           <!-- toggle menu  -->
@@ -47,19 +49,31 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto me-4">
               <li class="nav-item">
-                <a class="nav-link fw-semibold px-4" href="index.html">Home</a>
+                <a
+                  class="nav-link fw-semibold px-3 text-white"
+                  href="index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-semibold px-4" href="#">Courses </a>
+                <a class="nav-link fw-semibold px-3 text-white" href="#course"
+                  >Courses
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-semibold px-4" href="#">Contact</a>
+                <a class="nav-link fw-semibold px-3 text-white" href="#"
+                  >Contact</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-semibold px-4" href="#">About</a>
+                <a class="nav-link fw-semibold px-3 text-white" href="#"
+                  >About</a
+                >
               </li>
               <li>
-                <a href="" class="btn custom-btn fw-semibold px-4 fs-6"
+                <a
+                  href=""
+                  class="btn custom-btn fw-semibold px-4 fs-6 text-white"
                   >Register</a
                 >
               </li>
@@ -69,7 +83,7 @@
       </nav>
 
       <!-- slider area Start -->
-      <section>
+      <section style="margin-top: 80px">
         <div class="container">
           <div
             id="carouselExampleInterval"
@@ -165,7 +179,7 @@
     <!-- Header area End -->
 
     <!-- Course area start  -->
-    <section class="py-5 mt-5">
+    <section class="py-5 mt-5" id="course">
       <div class="container">
         <div class="row pb-5">
           <div class="col-12 text-center w-50 m-auto">
@@ -432,16 +446,7 @@
                           id="exampleInputPassword1"
                         />
                       </div>
-                      <div class="mb-3 form-check">
-                        <input
-                          type="checkbox"
-                          class="form-check-input"
-                          id="exampleCheck1"
-                        />
-                        <label class="form-check-label" for="exampleCheck1"
-                          >Accept Our <a href="">terms and condition</a></label
-                        >
-                      </div>
+
                       <div class="form-check">
                         <input
                           class="form-check-input"
@@ -464,6 +469,20 @@
                           Female
                         </label>
                       </div>
+                      <div class="mb-3 form-check">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          id="exampleCheck1"
+                        />
+                        <label class="form-check-label" for="exampleCheck1"
+                          >Accept Our <a href="">terms and condition</a></label
+                        >
+                      </div>
+                      <button type="reset" class="btn btn-danger">Reset</button>
+                      <button type="submit" class="btn custom-btn-primary">
+                        Submit
+                      </button>
                     </form>
                   </div>
                   <div class="modal-footer">
@@ -473,9 +492,6 @@
                       data-bs-dismiss="modal"
                     >
                       Close
-                    </button>
-                    <button type="submit" class="btn custom-btn-primary">
-                      Submit
                     </button>
                   </div>
                 </div>
