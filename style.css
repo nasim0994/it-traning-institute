@@ -41,6 +41,40 @@ body {
 .header-area {
   background-image: url(images/banner-bg.png);
 }
-.slider-title {
+.slider-h {
   font-size: 64px;
 }
+
+/* -----------Custom Responsive---------------- */
+/* @media only screen and (max-width: 376px) {
+  .carousel-caption {
+    top: 0;
+  }
+  .slider-h {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 377px) and (max-width: 575px) {
+  .carousel-caption {
+    top: 15px;
+  }
+  .slider-h {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 765px) {
+  .slider-h {
+    font-size: 28px;
+  }
+  .slider-p {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 765px) and (max-width: 991px) {
+  .carousel-caption {
+    top: 15px;
+  }
+  .slider-h {
+    font-size: 40px;
+  }
+} */
